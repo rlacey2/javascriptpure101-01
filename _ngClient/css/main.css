@@ -1,0 +1,31 @@
+ 
+html {
+ overflow-y: scroll; /* prevents a scrolling jump */
+}
+ 
+/* prevent header covering body */
+body { 
+    padding-top: 65px; 
+}
+ 
+ 
+
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li:hover {
+    border-radius: 14px;
+    background-color: #ff0;
+    color: green;
+}
+
+
+#home1 {
+	 background-color : cyan;
+}
+
+#home2 {
+	 background-color : magenta;
+}
+
+.hover {
+	background-color : grey;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>JavaScript Pure 101_01 h1</title>
+      <link href="css/main.css" rel="stylesheet" />
+      <link rel="shortcut icon"   href="/favicon.ico"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+   </head>
+   <body  id="home1" >
+      <div class="row">
+         <!-- HEADER AND NAVBAR -->
+         <header>
+            <nav class="navbar navbar-default navbar-fixed-top">
+               <div class="container">
+                  <div class="navbar-header">
+                     <a class="navbar-brand" href="#home">JavaScript Pure 101_01</a>
+                  </div>
+                  <ul class="nav navbar-nav navbar-right">
+                     <li><a href="index.html"><i>Home 1</i></a></li>
+                     <li><a href="index2.html"><i>Home 2</i></a></li>
+                  </ul>
+               </div>
+            </nav>
+         </header>
+      </div>
+      <div class="row">
+         <div class="col-md-1" ></div>
+         <div class="col-md-10" >
+            <a href="http://www.cs.unm.edu/~luger/cs451/prolog/assmt1.html"><span style="font-size:2.5em">The early web</span></a>
+            <br/>
+            <br/>
+            Hello World, from the index.html file<br>
+            <br/>
+            <div>
+               <hr/>
+               <div id="div01">
+                  div01 original text
+               </div>
+               <br/>
+               <p id="demo">Click the button Div 01 to run a function to change the text of div01 using document.getElementById()</p>
+               <button onclick="updateDiv01()">Div 01</button>				 
+            </div>
+            <div>
+               <hr/>
+               <div name="div02">
+                  div02 original text
+               </div>
+               <br/>
+               <p id="demo">Click the button Div 02 to run a function to change the text of div02 using document.document.getElementsByName()[0]</p>
+               <button onclick="updateDiv02()">Div 02</button>				 
+            </div>
+         </div>
+         <div class="col-md-1" ></div>
+      </div>
+   </body>
+   <script type="text/javascript" src="js/app.js"> </script> <!-- must come before all the controllers etc -->
+</html>
